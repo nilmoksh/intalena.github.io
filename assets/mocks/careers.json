@@ -36,11 +36,11 @@
     "cheatsheet": "/assets/documents/InheritanceSingleTable.docx"
    },
   {
-    "id": 4,
+    "id": 5,
     "name": "Hibernate Joined Class Inheritance Mapping",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Turpis cursus in hac habitasse platea dictumst quisque sagittis purus. &nbsp Egestas dui id ornare arcu odio ut sem nulla pharetra. Aliquet risus feugiat in ante metus dictum at. Nunc sed id semper risus in hendrerit gravida. Urna nec tincidunt praesent semper feugiat. Tellus cras adipiscing enim eu turpis egestas pretium aenean. Aliquam ultrices sagittis orci a scelerisque purus. Pellentesque diam volutpat commodo sed egestas egestas fringilla phasellus faucibus. Commodo ullamcorper a lacus vestibulum sed arcu. Sit amet dictum sit amet justo donec enim diam. Orci ac auctor augue mauris augue neque gravida. Malesuada proin libero nunc consequat interdum varius sit amet. Non sodales neque sodales ut etiam sit amet nisl purus.<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Turpis cursus in hac habitasse platea dictumst quisque sagittis purus. Egestas dui id ornare arcu odio ut sem nulla pharetra. Aliquet risus feugiat in ante metus dictum at. Nunc sed id semper risus in hendrerit gravida. Urna nec tincidunt praesent semper feugiat. Tellus cras adipiscing enim eu turpis egestas pretium aenean. Aliquam ultrices sagittis orci a scelerisque purus. Pellentesque diam volutpat commodo sed egestas egestas fringilla phasellus faucibus. Commodo ullamcorper a lacus vestibulum sed arcu. Sit amet dictum sit amet justo donec enim diam. Orci ac auctor augue mauris augue neque gravida. Malesuada proin libero nunc consequat interdum varius sit amet. Non sodales neque sodales ut etiam sit amet nisl purus</p>",
-    "mapping": " ",
-    "queries":" ",
+    "description": "Hibernate Inheritance Joined Strategy has both Super Class and Subclasses have their own table,Subclass table only has attributes of its own and not of super class.Polymorphic queries gives poor better performance ..",
+    "mapping": "",
+    "queries": "",
     "cheatsheet" :"/assets/documents/InheritanceJoinedTable.docx "
 }
 ]
