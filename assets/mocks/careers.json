@@ -5,7 +5,7 @@
     "description": " Hibernate One to One Mapping is created using @onetoonemapping,Data is persisted across tables using a foreign key.Mapping is created with @OneToOne annotation and using @joincolumn with unique=true on owner side, On the inverse end mappedBy is used to refer to attribute on owner side.",
     "mapping": " ",
     "queries":" ",
-    "cheatsheet" :"/assets/documents/HibernateOneToOne.docx"
+    "cheatsheet" :"/intalena.github.io/assets/documents/HibernateOneToOne.docx"
 
    
   },
@@ -15,7 +15,7 @@
     "description": "Hibernate bidirectional one to many is created using @ManyToOne  annotation on the owner side, the foreign column is added using @JoinColumn on owner side. @OnetoMany annotation is used on inverse side used with mappedBy attribute referencing owner side reference. fetch=FetchType.LAZY, cascade=CascadeType.PERSIST is used to for lazy loading and cascadeType.persist for cascade.<p>",
     "mapping": " ",
     "queries":" ",
-    "cheatsheet" :"/assets/documents/HibernateOneToMany.docx"
+    "cheatsheet" :"/intalena.github.io/assets/documents/HibernateOneToMany.docx"
 
    
   },
@@ -25,7 +25,7 @@
     "description":"Hibernate manytomany mapping is creating using join table also called linked table which has foreignkey from both the table, Owner Side has @manytomany annotation with joincolumn and inversejoincolumn for owner and inverse end resp, Inverse end has @manytomany annotation with mappedby to reference attribute on owner side.",
     "mapping": " ",
     "queries":" ",
-    "cheatsheet" :"/assets/documents/HibernateManyToMany.docx"
+    "cheatsheet" :"/intalena.github.io/assets/documents/HibernateManyToMany.docx"
  },
   {
     "id": 4,
@@ -33,7 +33,7 @@
     "description": "Its default strategy for creating inheritance mapping,Inheritance hierarchy is persisted in single table,Polymorphic queries gives better performance, Only downside is it does not allow null constraints.",
     "mapping": "strategy=InheritancyType.SINGLE_TABLE,Discriminator column identifies the type and the subclass",
     "queries": "Polymorphic queries don’t have joins ,Querying Superclass and Derived classes.",
-    "cheatsheet": "/assets/documents/InheritanceSingleTable.docx"
+    "cheatsheet": "/intalena.github.io/assets/documents/InheritanceSingleTable.docx"
    },
   {
     "id": 5,
@@ -41,6 +41,6 @@
     "description": "Hibernate Inheritance Joined Strategy has both Super Class and Subclasses have their own table,Subclass table only has attributes of its own and not of super class.Polymorphic queries gives poor better performance ..",
     "mapping": "",
     "queries": "",
-    "cheatsheet" :"/assets/documents/InheritanceJoinedTable.docx "
+    "cheatsheet" :"/intalena.github.io/assets/documents/InheritanceJoinedTable.docx "
 }
 ]
